@@ -63,13 +63,16 @@ class Currency:
 
         fileData = self.get_fileData()
 
+        for i in self.currentData:
+            print(i.text)
 
-        if (float(fileData[0]) < float(self.currentData[0].text) and float(fileData[2]) <= float(self.currentData[2].text) and
-        float(fileData[3]) <= float(self.currentData[3].text)):
+        if (float(fileData[0]) < float(remove_gaps(self.currentData[1].text)) and
+                float(fileData[2]) <= float(remove_gaps(self.currentData[3].text)) and
+                float(fileData[3]) <= float(remove_gaps(self.currentData[4].text))):
             f = open('data.txt','a')
             f.write("\n")
-            for i in self.currentData:
-                f.write(str(i.text) + " ")
+            for i in range(1, self.currentData.lenth()):
+                f.write(remove_gaps(str(i.text)) + " ")
             f.write(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
             f.close()
             print("data has been updated...\n")
@@ -80,6 +83,9 @@ class Currency:
             time.sleep(2)
             print("kidding, nothing new\n")
             time.sleep(2)
+
+def remove_gaps(str):
+    return str.replace(' ','')
 
 def menu():
     print("Menu\n"
@@ -104,9 +110,9 @@ while True:
         if situation.currentData != None:
             situation.send_mail(f'The situation with coronavirus in Russia has changed!\n'
                            f'Here is the most up-to-date (on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}) data:\n'
-                           f'Cases: {situation.currentData[0].text} (+{situation.currentData[1].text})\n'
-                           f'Death: {situation.currentData[2].text}\n'
-                           f'Recovered: {situation.currentData[3].text}\n---')
+                           f'Cases: {remove_gaps(situation.currentData[1].text)} (+{remove_gaps(situation.currentData[2].text)})\n'
+                           f'Death: {remove_gaps(situation.currentData[3].text)}\n'
+                           f'Recovered: {remove_gaps(situation.currentData[4].text)}\n---')
             input("press Enter...\n")
         else:
             print("there is nothing new to send!...")

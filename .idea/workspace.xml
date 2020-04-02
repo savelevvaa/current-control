@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="979a63e4-c7f0-4059-8b12-2e83149fa73e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZwLCkaSgMDnx8eXa1APZMg1I6U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -35,5 +53,73 @@
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="979a63e4-c7f0-4059-8b12-2e83149fa73e" name="Default Changelist" comment="" />
+      <created>1585745083115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585745083115</updated>
+    </task>
+    <task id="LOCAL-00001" summary="full upload, first pushing">
+      <created>1585745264027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585745264027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="full upload, first pushing" />
+    <option name="LAST_COMMIT_MESSAGE" value="full upload, first pushing" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="346" y="66" key="CommitChangelistDialog2" timestamp="1585745262864">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="346" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1585745262864" />
+    <state width="1419" height="143" key="GridCell.Tab.0.bottom" timestamp="1585832779938">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="143" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350910" />
+    <state width="1419" height="143" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585832779938" />
+    <state width="1419" height="143" key="GridCell.Tab.0.center" timestamp="1585832779938">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="143" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350909" />
+    <state width="1419" height="143" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585832779938" />
+    <state width="1419" height="143" key="GridCell.Tab.0.left" timestamp="1585832779937">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="143" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350909" />
+    <state width="1419" height="143" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585832779937" />
+    <state width="1419" height="143" key="GridCell.Tab.0.right" timestamp="1585832779938">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="143" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350910" />
+    <state width="1419" height="143" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585832779938" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1585745341691">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1585745341691" />
   </component>
 </project>
