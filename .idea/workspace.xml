@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="979a63e4-c7f0-4059-8b12-2e83149fa73e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -72,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585745264027</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Trying to optimise programm cod to work with updated site markup, but unfortunately so far without success. I was again blocked from accessing the server with the source information, due to numerous requests during code debugging.">
+      <created>1585833151644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585833151644</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,36 +96,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="full upload, first pushing" />
-    <option name="LAST_COMMIT_MESSAGE" value="full upload, first pushing" />
+    <MESSAGE value="Trying to optimise programm cod to work with updated site markup, but unfortunately so far without success. I was again blocked from accessing the server with the source information, due to numerous requests during code debugging." />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to optimise programm cod to work with updated site markup, but unfortunately so far without success. I was again blocked from accessing the server with the source information, due to numerous requests during code debugging." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="346" y="66" key="CommitChangelistDialog2" timestamp="1585745262864">
+    <state x="346" y="66" key="CommitChangelistDialog2" timestamp="1585833151378">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="346" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1585745262864" />
-    <state width="1419" height="143" key="GridCell.Tab.0.bottom" timestamp="1585832779938">
+    <state x="346" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1585833151378" />
+    <state width="1419" height="143" key="GridCell.Tab.0.bottom" timestamp="1585866941443">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350910" />
-    <state width="1419" height="143" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585832779938" />
-    <state width="1419" height="143" key="GridCell.Tab.0.center" timestamp="1585832779938">
+    <state width="1419" height="143" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585866941443" />
+    <state width="1419" height="143" key="GridCell.Tab.0.center" timestamp="1585866941442">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350909" />
-    <state width="1419" height="143" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585832779938" />
-    <state width="1419" height="143" key="GridCell.Tab.0.left" timestamp="1585832779937">
+    <state width="1419" height="143" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585866941442" />
+    <state width="1419" height="143" key="GridCell.Tab.0.left" timestamp="1585866941441">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350909" />
-    <state width="1419" height="143" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585832779937" />
-    <state width="1419" height="143" key="GridCell.Tab.0.right" timestamp="1585832779938">
+    <state width="1419" height="143" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585866941441" />
+    <state width="1419" height="143" key="GridCell.Tab.0.right" timestamp="1585866941442">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350910" />
-    <state width="1419" height="143" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585832779938" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1585745341691">
+    <state width="1419" height="143" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585866941442" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1585833161063">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1585745341691" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1585833161063" />
   </component>
 </project>
