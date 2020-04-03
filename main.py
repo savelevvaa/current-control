@@ -53,6 +53,12 @@ class Currency:
             message
         )
 
+        # server.sendmail(
+        #     'admin@itproger.com',
+        #     'enjoy4u@bk.ru',
+        #     message
+        # )
+
         print("\nthe email has been sent")
 
         server.quit()
@@ -104,15 +110,15 @@ while True:
        situation.check_data()
     elif choice == 2:
         fileData = situation.get_fileData()
-        print(f'Cases: {fileData[0]} (+{fileData[1]}), Death: {fileData[2]}, Recovered: {fileData[3]} [actual on {fileData[4]} {fileData[5]}]' )
+        print(f'Cases: {fileData[0]} (+{fileData[1]}), Death: {fileData[3]}, Recovered: {fileData[2]} [actual on {fileData[4]} {fileData[5]}]' )
         input("press Enter...\n")
     elif choice == 3:
         if situation.currentData != None:
             situation.send_mail(f'The situation with coronavirus in Russia has changed!\n'
                            f'Here is the most up-to-date (on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}) data:\n'
                            f'Cases: {remove_gaps(situation.currentData[1].text)} (+{remove_gaps(situation.currentData[2].text)})\n'
-                           f'Death: {remove_gaps(situation.currentData[3].text)}\n'
-                           f'Recovered: {remove_gaps(situation.currentData[4].text)}\n---')
+                           f'Death: {remove_gaps(situation.currentData[4].text)}\n'
+                           f'Recovered: {remove_gaps(situation.currentData[3].text)}\n---\n(spamm)')
             input("press Enter...\n")
         else:
             print("there is nothing new to send!...")

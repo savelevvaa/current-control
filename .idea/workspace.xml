@@ -85,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585867050124</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Some cosmetic changes;&#10;Explanatory string in .txt;">
+      <created>1585911772027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585911772027</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,36 +112,37 @@
     <MESSAGE value="full upload, first pushing" />
     <MESSAGE value="Trying to optimise programm cod to work with updated site markup, but unfortunately so far without success. I was again blocked from accessing the server with the source information, due to numerous requests during code debugging." />
     <MESSAGE value="Finally it works!!!&#10;(for that site markup, which i had right now)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finally it works!!!&#10;(for that site markup, which i had right now)" />
+    <MESSAGE value="Some cosmetic changes;&#10;Explanatory string in .txt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some cosmetic changes;&#10;Explanatory string in .txt;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="66" key="CommitChangelistDialog2" timestamp="1585867049840">
+    <state x="0" y="66" key="CommitChangelistDialog2" timestamp="1585911771842">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="0" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1585867049840" />
-    <state width="1419" height="143" key="GridCell.Tab.0.bottom" timestamp="1585911673662">
+    <state x="0" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1585911771842" />
+    <state width="1419" height="143" key="GridCell.Tab.0.bottom" timestamp="1585912759950">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350910" />
-    <state width="1419" height="143" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585911673662" />
-    <state width="1419" height="143" key="GridCell.Tab.0.center" timestamp="1585911673661">
+    <state width="1419" height="143" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585912759950" />
+    <state width="1419" height="143" key="GridCell.Tab.0.center" timestamp="1585912759949">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350909" />
-    <state width="1419" height="143" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585911673661" />
-    <state width="1419" height="143" key="GridCell.Tab.0.left" timestamp="1585911673661">
+    <state width="1419" height="143" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585912759949" />
+    <state width="1419" height="143" key="GridCell.Tab.0.left" timestamp="1585912759949">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350909" />
-    <state width="1419" height="143" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585911673661" />
-    <state width="1419" height="143" key="GridCell.Tab.0.right" timestamp="1585911673662">
+    <state width="1419" height="143" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585912759949" />
+    <state width="1419" height="143" key="GridCell.Tab.0.right" timestamp="1585912759950">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350910" />
-    <state width="1419" height="143" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585911673662" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1585867054708">
+    <state width="1419" height="143" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585912759950" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1585911783150">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1585867054708" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1585911783150" />
   </component>
 </project>
