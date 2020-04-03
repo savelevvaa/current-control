@@ -53,7 +53,7 @@ class Currency:
             message
         )
 
-        print("the email has been sent\n")
+        print("\nthe email has been sent")
 
         server.quit()
 
