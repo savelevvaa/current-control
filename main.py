@@ -13,6 +13,12 @@ class Currency:
 
     def get_fileData(self):
         f = open('data.txt', 'r')
+        temp = f.readlines()
+        f.close()
+        return temp
+
+    def get_fileLastData(self):
+        f = open('data.txt', 'r')
         temp = f.readlines()[-1]
         f.close()
         return temp.split()
@@ -55,7 +61,7 @@ class Currency:
 
         # server.sendmail(
         #     'admin@itproger.com',
-        #     'enjoy4u@bk.ru',
+        #     '@mail.ru',
         #     message
         # )
 
@@ -65,7 +71,7 @@ class Currency:
 
     def check_data(self):
 
-        fileData = self.get_fileData()
+        fileData = self.get_fileLastData()
 
         self.currentData = self.get_currency()
 
@@ -98,7 +104,8 @@ def menu():
           "1) Make checking request\n"
           "2) Show last results\n"
           "3) Send mail\n"
-          "4) Exit")
+          "4) Print all Data\n"
+          "5) Exit")
     choice = input(">>> ")
     return choice
 
@@ -109,7 +116,7 @@ while True:
     if choice == 1:
        situation.check_data()
     elif choice == 2:
-        fileData = situation.get_fileData()
+        fileData = situation.get_fileLastData()
         print(f'Cases: {fileData[0]} (+{fileData[1]}), Death: {fileData[3]}, Recovered: {fileData[2]} [actual on {fileData[4]} {fileData[5]}]' )
         input("press Enter...\n")
     elif choice == 3:
@@ -124,6 +131,14 @@ while True:
             print("there is nothing new to send!...")
             input("press Enter...\n")
     elif choice == 4:
+        print("%9s%9s%10s%9s" % ("Cases", "Increase", "Recovered", "Death"))
+        list = situation.get_fileData()
+        for i in list:
+            st = str(i)
+            splited = st.split()
+            print(splited[1])
+
+    elif choice == 5:
         print("bye bye\n")
         break
     else:
