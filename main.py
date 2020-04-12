@@ -132,12 +132,16 @@ while True:
             print("there is nothing new to send!...")
             input("press Enter...\n")
     elif choice == 4:       #still not finished
-        print("%9s%9s%10s%9s" % ("Cases", "Increase", "Recovered", "Death"))
+        print("%9s%9s%10s%9s%14s%12s" % ("Cases", "Increase", "Recovered", "Death", "Date", "Time"))
         list = situation.get_fileData()
+        count = 0
         for i in list:
-            st = str(i)
-            splited = st.split()
-            print(splited[1])
+            if count != 0:
+                st = str(i)
+                splited = st.split()
+                print("%9s%9s%10s%9s%14s%12s" % (splited[0], splited[1], splited[2], splited[3], splited[4], splited[5]))
+            count += 1
+        input("press Enter...\n")
 
     elif choice == 5:
         print("bye bye\n")
