@@ -114,15 +114,18 @@ class Currency:
             print("data has been updated...\n")
             time.sleep(3)
         else:
+            # пишем что данные не изменились
             self.currentData = None
             print("we all gonna die...\n")
             time.sleep(2)
             print("kidding, nothing new\n")
             time.sleep(2)
 
+# функция удаления пробелов, обозначающих размерность в цифрах (прим.: 2 378 (2 тысячи 378))
 def remove_gaps(str):
     return str.replace(' ', '')
 
+# функция меню, позволяющая удобно управлять программой
 def menu():
     print("Menu\n"
           "1) Make checking request\n"
@@ -133,17 +136,23 @@ def menu():
     choice = input(">>> ")
     return choice
 
+# начало прогарммы, инициализация объекта класса
 situation = Currency(1)
 
+# меню-цикл
 while True:
+    # выбираем пункт меню
     choice = float(menu())
     if choice == 1:
-       situation.check_data()
+        # проверка на наличие новых данных
+        situation.check_data()
     elif choice == 2:
+        # печать самой актуальной информации из файла
         fileData = situation.get_fileLastData()
         print(f'Cases: {fileData[0]} (+{fileData[1]} for the past day), Death: {fileData[3]}, Recovered: {fileData[2]} [actual on {fileData[4]} {fileData[5]}]' )
         input("press Enter...\n")
     elif choice == 3:
+        # отправка письма на почту, уведомляющее что положение дел изменилось
         if situation.currentData != None:
             situation.send_mail(f'The situation with coronavirus in Russia has changed!\n'
                            f'Here is the most up-to-date (on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}) data:\n'
@@ -153,9 +162,11 @@ while True:
 
             input("press Enter...\n")
         else:
+            # если проверенные данные совпадают с последними из файла, тогда попадаем сюда
             print("there is nothing new to send!...")
             input("press Enter...\n")
-    elif choice == 4:       #still not finished
+    elif choice == 4:
+        # печать всех данных из файла наэкран консоли
         print("%9s%9s%10s%9s%14s%12s" % ("Cases", "Increase", "Recovered", "Death", "Date", "Time"))
         list = situation.get_fileData()
         count = 0
@@ -168,6 +179,7 @@ while True:
         input("press Enter...\n")
 
     elif choice == 5:
+        # завершение
         print("bye bye\n")
         break
     else:
@@ -175,4 +187,4 @@ while True:
 
 input("press Enter to close app...")
 
-#CODE BACKUP ON **.**.****
+# конец

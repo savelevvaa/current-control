@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="979a63e4-c7f0-4059-8b12-2e83149fa73e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586735377391</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commented on half of the code">
+      <created>1586736420381</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586736420381</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,37 +152,42 @@
     <MESSAGE value="still trying to  to implement a formal output of all data on the screen..." />
     <MESSAGE value="some cosmetic, outprint changes" />
     <MESSAGE value="implemented the output of all data from .txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented the output of all data from .txt file" />
+    <MESSAGE value="commented on half of the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="commented on half of the code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="85" key="CommitChangelistDialog2" timestamp="1586735377252">
+    <state x="476" y="85" key="CommitChangelistDialog2" timestamp="1586736420261">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1586735377252" />
-    <state width="1419" height="142" key="GridCell.Tab.0.bottom" timestamp="1586735233828">
+    <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1586736420261" />
+    <state width="1419" height="185" key="GridCell.Tab.0.bottom" timestamp="1587649111882">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350910" />
-    <state width="1419" height="142" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586735233828" />
-    <state width="1419" height="142" key="GridCell.Tab.0.center" timestamp="1586735233827">
+    <state width="1419" height="185" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587649111882" />
+    <state width="1419" height="185" key="GridCell.Tab.0.center" timestamp="1587649111881">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350909" />
-    <state width="1419" height="142" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586735233827" />
-    <state width="1419" height="142" key="GridCell.Tab.0.left" timestamp="1586735233827">
+    <state width="1419" height="185" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587649111881" />
+    <state width="1419" height="185" key="GridCell.Tab.0.left" timestamp="1587649111881">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350909" />
-    <state width="1419" height="142" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586735233827" />
-    <state width="1419" height="142" key="GridCell.Tab.0.right" timestamp="1586735233828">
+    <state width="1419" height="185" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587649111881" />
+    <state width="1419" height="185" key="GridCell.Tab.0.right" timestamp="1587649111882">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="143" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-877.1920.1057@0.23.1440.877" timestamp="1585761350910" />
-    <state width="1419" height="142" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586735233828" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1586735388528">
+    <state width="1419" height="185" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587649111882" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1586736429484">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1586735388528" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1586736429484" />
+    <state x="509" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587479408474">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="509" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1587479408474" />
     <state x="476" y="314" key="git4idea.ui.GitTagDialog" timestamp="1585913135731">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
