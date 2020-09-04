@@ -161,6 +161,7 @@ while True:
                            f'Death: {remove_gaps(situation.currentData[4].text)}\n---\n(spamm)')
 
             input("press Enter...\n")
+
         else:
             # если проверенные данные совпадают с последними из файла, тогда попадаем сюда
             print("there is nothing new to send!...")
