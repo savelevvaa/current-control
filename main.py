@@ -156,8 +156,11 @@ while True:
     elif choice == 2:
         # печать самой актуальной информации из файла
         fileData = situation.get_fileLastData()
-        #preFileData = situation.get_filePreLastData()
-        print(f'Cases: {fileData[0]} (+{fileData[1]} for the past day), Death: {fileData[3]}, Recovered: {fileData[2]} [actual on {fileData[4]} {fileData[5]}]' )
+        preFileData = situation.get_filePreLastData()
+        print(f'\033[33mCases\033[0m: {fileData[0]} (+{fileData[1]} for the past day), '
+              f'\n\033[31mDeath\033[25m\033[0m: {fileData[3]} (+{int(fileData[3]) - int(preFileData[3])} from last check), '
+              f'\n\033[36mRecovered\033[0m: {fileData[2]} (+{int(fileData[2]) - int(preFileData[2])} from last check) '
+              f'\n[\033[35mactual on {fileData[4]} {fileData[5]}\033[0m]' )
         input("press Enter...\n")
     elif choice == 3:
         # отправка письма на почту, уведомляющее что положение дел изменилось
