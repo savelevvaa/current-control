@@ -30,6 +30,13 @@ class Currency:
         f.close()
         return temp.split()
 
+    # геттер для предпоследних данных из файла
+    def get_filePreLastData(self):
+        f = open('data.txt', 'r')
+        temp = f.readlines()[-2]
+        f.close()
+        return temp.split()
+
     # конструктор класса (даже не знаю почему и зачем именно такой)
     def __init__(self, justInCase):
         self.justInCase = justInCase
@@ -149,6 +156,7 @@ while True:
     elif choice == 2:
         # печать самой актуальной информации из файла
         fileData = situation.get_fileLastData()
+        #preFileData = situation.get_filePreLastData()
         print(f'Cases: {fileData[0]} (+{fileData[1]} for the past day), Death: {fileData[3]}, Recovered: {fileData[2]} [actual on {fileData[4]} {fileData[5]}]' )
         input("press Enter...\n")
     elif choice == 3:
