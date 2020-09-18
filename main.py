@@ -164,12 +164,15 @@ while True:
         input("press Enter...\n")
     elif choice == 3:
         # отправка письма на почту, уведомляющее что положение дел изменилось
+        preFileData = situation.get_filePreLastData()
         if situation.currentData != None:
             situation.send_mail(f'The situation with coronavirus in Russia has changed!\n'
                            f'Here is the most up-to-date (on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}) data:\n'
                            f'Cases: {remove_gaps(situation.currentData[1].text)} (+{remove_gaps(situation.currentData[2].text)} for the past day)\n'
-                           f'Recovered: {remove_gaps(situation.currentData[3].text)}\n'
-                           f'Death: {remove_gaps(situation.currentData[4].text)}\n---\n(spamm)')
+                           f'Recovered: {remove_gaps(situation.currentData[3].text)} (+{int(remove_gaps(situation.currentData[3].text)) - int(preFileData[2])} from last check)\n'
+                           f'Death: {remove_gaps(situation.currentData[4].text)} (+{int(remove_gaps(situation.currentData[4].text)) - int(preFileData[3])} from last check) \n'
+                           f'---\n'
+                           f'(spamm)')
 
             input("press Enter...\n")
 
