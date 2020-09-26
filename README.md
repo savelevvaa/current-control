@@ -4,10 +4,32 @@ This is a console application for checking the current situation in the country 
 
 ## functionality 
 1. app making request to get a new info about covi
-    1.1 if info has been changed (since last logged request), it prints notification console
-    1.2 if there is nothing new, it trying to joke
+    - if info has been changed (since last logged request), it prints notification console
+    - if there is nothing new, it trying to joke
 2. prints last parsed info into console
 3. sends e-mail
-    3.1 it sends e-mail if there is smth new 
-    3.2 it will warn you that there is nothing to send
+    - it sends e-mail if there is smth new 
+    - it will warn you that there is nothing to send
 4. prints all logged results of previous request (data.txt file)
+
+## images
+**navigation menu**             
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/0.png">
+
+**making request: _respond1_**             
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/1_1.png">
+
+**making request: _respond2_**             
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/1_2.png">
+
+**printing result of last request**             
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/2.png">
+
+**sending email: _respond1_**             
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/3_1.png">
+
+**sending email: _respond2_**             
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/3_2.png">
+
+**printing out hole data log**             
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/4.png">
