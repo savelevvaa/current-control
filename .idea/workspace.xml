@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="979a63e4-c7f0-4059-8b12-2e83149fa73e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600419310826</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Data update.">
+      <created>1601126027484</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601126027484</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,14 +207,15 @@
     <MESSAGE value="New data; and new func for getting pre-last string (for further compare)" />
     <MESSAGE value="realised colorful console outprint.&#10;counting of increase number of deaths and recovering from last local check" />
     <MESSAGE value="Data update.&#10;email notification markup has been changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data update.&#10;email notification markup has been changed" />
+    <MESSAGE value="Data update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Data update." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="85" key="CommitChangelistDialog2" timestamp="1600419310666">
+    <state x="476" y="85" key="CommitChangelistDialog2" timestamp="1601126027326">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817339918" />
-    <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600419310666" />
+    <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601126027326" />
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog" timestamp="1600416700796">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -216,26 +224,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="507" y="223" key="FileChooserDialogImpl/0.23.1440.877@0.23.1440.877" timestamp="1596645231581" />
-    <state width="1419" height="163" key="GridCell.Tab.0.bottom" timestamp="1600629486193">
+    <state width="1419" height="163" key="GridCell.Tab.0.bottom" timestamp="1601126147530">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="183" key="GridCell.Tab.0.bottom/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255651" />
-    <state width="1419" height="163" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1600629486193" />
-    <state width="1419" height="163" key="GridCell.Tab.0.center" timestamp="1600629486192">
+    <state width="1419" height="163" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601126147530" />
+    <state width="1419" height="163" key="GridCell.Tab.0.center" timestamp="1601126147530">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="183" key="GridCell.Tab.0.center/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255650" />
-    <state width="1419" height="163" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1600629486192" />
-    <state width="1419" height="163" key="GridCell.Tab.0.left" timestamp="1600629486191">
+    <state width="1419" height="163" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601126147530" />
+    <state width="1419" height="163" key="GridCell.Tab.0.left" timestamp="1601126147529">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="183" key="GridCell.Tab.0.left/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255649" />
-    <state width="1419" height="163" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1600629486191" />
-    <state width="1419" height="163" key="GridCell.Tab.0.right" timestamp="1600629486192">
+    <state width="1419" height="163" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601126147529" />
+    <state width="1419" height="163" key="GridCell.Tab.0.right" timestamp="1601126147530">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="183" key="GridCell.Tab.0.right/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255651" />
-    <state width="1419" height="163" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1600629486192" />
+    <state width="1419" height="163" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601126147530" />
     <state width="1419" height="227" key="GridCell.Tab.1.bottom" timestamp="1600419332824">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

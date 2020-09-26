@@ -143,63 +143,68 @@ def menu():
     choice = input(">>> ")
     return choice
 
-# начало прогарммы, инициализация объекта класса
-situation = Currency(1)
+# главная функция
+def main():
+    # начало прогарммы, инициализация объекта класса
+    situation = Currency(1)
 
-# меню-цикл
-while True:
-    # выбираем пункт меню
-    choice = float(menu())
-    if choice == 1:
-        # проверка на наличие новых данных
-        situation.check_data()
-    elif choice == 2:
-        # печать самой актуальной информации из файла
-        fileData = situation.get_fileLastData()
-        preFileData = situation.get_filePreLastData()
-        print(f'\033[33mCases\033[0m: {fileData[0]} (+{fileData[1]} for the past day), '
-              f'\n\033[31mDeath\033[25m\033[0m: {fileData[3]} (+{int(fileData[3]) - int(preFileData[3])} from last check), '
-              f'\n\033[36mRecovered\033[0m: {fileData[2]} (+{int(fileData[2]) - int(preFileData[2])} from last check) '
-              f'\n[\033[35mactual on {fileData[4]} {fileData[5]}\033[0m]' )
-        input("press Enter...\n")
-    elif choice == 3:
-        # отправка письма на почту, уведомляющее что положение дел изменилось
-        preFileData = situation.get_filePreLastData()
-        if situation.currentData != None:
-            situation.send_mail(f'The situation with coronavirus in Russia has changed!\n'
-                           f'Here is the most up-to-date (on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}) data:\n'
-                           f'Cases: {remove_gaps(situation.currentData[1].text)} (+{remove_gaps(situation.currentData[2].text)} for the past day)\n'
-                           f'Recovered: {remove_gaps(situation.currentData[3].text)} (+{int(remove_gaps(situation.currentData[3].text)) - int(preFileData[2])} from last check)\n'
-                           f'Death: {remove_gaps(situation.currentData[4].text)} (+{int(remove_gaps(situation.currentData[4].text)) - int(preFileData[3])} from last check) \n'
-                           f'---\n'
-                           f'(spamm)')
+    # меню-цикл
+    while True:
+        # выбираем пункт меню
+        choice = float(menu())
+        if choice == 1:
+            # проверка на наличие новых данных
+            situation.check_data()
+        elif choice == 2:
+            # печать самой актуальной информации из файла
+            fileData = situation.get_fileLastData()
+            preFileData = situation.get_filePreLastData()
+            print(f'\033[33mCases\033[0m: {fileData[0]} (+{fileData[1]} for the past day), '
+                  f'\n\033[31mDeath\033[25m\033[0m: {fileData[3]} (+{int(fileData[3]) - int(preFileData[3])} from last check), '
+                  f'\n\033[36mRecovered\033[0m: {fileData[2]} (+{int(fileData[2]) - int(preFileData[2])} from last check) '
+                  f'\n[\033[35mactual on {fileData[4]} {fileData[5]}\033[0m]' )
+            input("press Enter...\n")
+        elif choice == 3:
+            # отправка письма на почту, уведомляющее что положение дел изменилось
+            preFileData = situation.get_filePreLastData()
+            if situation.currentData != None:
+                situation.send_mail(f'The situation with coronavirus in Russia has changed!\n'
+                               f'Here is the most up-to-date (on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}) data:\n'
+                               f'Cases: {remove_gaps(situation.currentData[1].text)} (+{remove_gaps(situation.currentData[2].text)} for the past day)\n'
+                               f'Recovered: {remove_gaps(situation.currentData[3].text)} (+{int(remove_gaps(situation.currentData[3].text)) - int(preFileData[2])} from last check)\n'
+                               f'Death: {remove_gaps(situation.currentData[4].text)} (+{int(remove_gaps(situation.currentData[4].text)) - int(preFileData[3])} from last check) \n'
+                               f'---\n'
+                               f'(spamm)')
 
+                input("press Enter...\n")
+
+            else:
+                # если проверенные данные совпадают с последними из файла, тогда попадаем сюда
+                print("there is nothing new to send!...")
+                input("press Enter...\n")
+        elif choice == 4:
+            # печать всех данных из файла наэкран консоли
+            print("%9s%9s%10s%9s%14s%12s" % ("Cases", "Increase", "Recovered", "Death", "Date", "Time"))
+            list = situation.get_fileData()
+            count = 0
+            for i in list:
+                if count != 0:
+                    st = str(i)
+                    splited = st.split()
+                    print("%9s%9s%10s%9s%14s%12s" % (splited[0], splited[1], splited[2], splited[3], splited[4], splited[5]))
+                count += 1
             input("press Enter...\n")
 
+        elif choice == 5:
+            # завершение
+            print("bye bye\n")
+            break
         else:
-            # если проверенные данные совпадают с последними из файла, тогда попадаем сюда
-            print("there is nothing new to send!...")
-            input("press Enter...\n")
-    elif choice == 4:
-        # печать всех данных из файла наэкран консоли
-        print("%9s%9s%10s%9s%14s%12s" % ("Cases", "Increase", "Recovered", "Death", "Date", "Time"))
-        list = situation.get_fileData()
-        count = 0
-        for i in list:
-            if count != 0:
-                st = str(i)
-                splited = st.split()
-                print("%9s%9s%10s%9s%14s%12s" % (splited[0], splited[1], splited[2], splited[3], splited[4], splited[5]))
-            count += 1
-        input("press Enter...\n")
+            print("choise right menu option...\n")
 
-    elif choice == 5:
-        # завершение
-        print("bye bye\n")
-        break
-    else:
-        print("choise right menu option...\n")
+    input("press Enter to close app...")
+    # конец главной функции
 
-input("press Enter to close app...")
-
-# конец
+# вызов главной функции
+if __name__ == "__main__":
+    main()
