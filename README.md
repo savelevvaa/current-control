@@ -14,22 +14,22 @@ This is a console application for checking the current situation in the country 
 
 ## images
 **navigation menu**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/0.png">
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/0.jpg">
 
 **making request: _respond1_**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/1_1.png">
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/1_1.jpg">
 
 **making request: _respond2_**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/1_2.png">
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/1_2.jpg">
 
 **printing result of last request**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/2.png">
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/2.jpg">
 
 **sending email: _respond1_**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/3_1.png">
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/3_1.jpg">
 
 **sending email: _respond2_**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/3_2.png">
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/3_2.jpg">
 
 **printing out hole data log**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/4.png">
+<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/4.jpg">
