@@ -13,24 +13,26 @@ This is a console application for checking the current situation in the country 
 4. prints all logged results of previous request (data.txt file)
 
 ## images
-**navigation menu**             
-![menu](/images/0.jpg)
+**navigation menu:**             
+<img src="/images/0.jpg" width="50%">
 
-**making request: _respond1_**             
-![success request](/images/1_1.jpg)
+**making request:**             
+| _respond 1_                 | _respond 2_                 |
+|:---------------------------:|:---------------------------:|
+| <img src="/images/1_1.jpg"> | <img src="/images/1_2.jpg"> |
+|           success           |   nothing new, stpd joke    |
 
-**making request: _respond2_**             
-![nothing new](/images/1_2.jpg)
+**printing result of last request:**             
+<img src="/images/2.jpg" width="50%">
 
-**printing result of last request**             
-![out print last result](/images/2.jpg)
+**sending email:**             
+| _respond 1_                 | _respond 2_                 |
+|:---------------------------:|:---------------------------:|
+| <img src="/images/3_1.jpg"> | <img src="/images/3_2.jpg"> |
+|           success           |     nothing new to sent     |
 
-**sending email: _respond1_**             
-![success](/images/3_1.jpg)
+**printing out hole data log:**             
+<img src="/images/4.jpg" width="50%">
 
-**sending email: _respond2_**             
-![nothing to send](/images/3_2.jpg)
-
-**printing out hole data log**             
-![all data](/images/4.jpg)
-
+---
+> P.S. this application is written exclusively for educational purposes, learning the Python language and applied use of popular packages.
