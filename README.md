@@ -13,23 +13,26 @@ This is a console application for checking the current situation in the country 
 4. prints all logged results of previous request (data.txt file)
 
 ## images
-**navigation menu**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/0.png">
+**navigation menu:**             
+<img src="/images/0.jpg" width="50%">
 
-**making request: _respond1_**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/1_1.png">
+**making request:**             
+| _respond 1_                 | _respond 2_                 |
+|:---------------------------:|:---------------------------:|
+| <img src="/images/1_1.jpg"> | <img src="/images/1_2.jpg"> |
+|           success           |   nothing new, stpd joke    |
 
-**making request: _respond2_**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/1_2.png">
+**printing result of last request:**             
+<img src="/images/2.jpg" width="50%">
 
-**printing result of last request**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/2.png">
+**sending email:**             
+| _respond 1_                 | _respond 2_                 |
+|:---------------------------:|:---------------------------:|
+| <img src="/images/3_1.jpg"> | <img src="/images/3_2.jpg"> |
+|           success           |     nothing new to sent     |
 
-**sending email: _respond1_**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/3_1.png">
+**printing out hole data log:**             
+<img src="/images/4.jpg" width="50%">
 
-**sending email: _respond2_**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/3_2.png">
-
-**printing out hole data log**             
-<img src="https://github.com/dlnwlkmn/current-control/tree/master/images/4.png">
+---
+> P.S. this application is written exclusively for educational purposes, learning the Python language and applied use of popular packages.
