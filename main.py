@@ -1,8 +1,12 @@
+# Преамбула
+%matplotlib inline
+
 import requests
 from bs4 import BeautifulSoup as Bs
 import smtplib
 import time
 from datetime import datetime
+import matplotlib as mlp
 
 # класс с методами по проверке текущей ситуации
 class Currency:
