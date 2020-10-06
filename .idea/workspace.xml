@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979a63e4-c7f0-4059-8b12-2e83149fa73e" name="Default Changelist" comment="new data">
+    <list default="true" id="979a63e4-c7f0-4059-8b12-2e83149fa73e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi-2019.11.28.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi-2019.11.28.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi-2019.11.28.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi-2019.11.28.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi-2019.11.28.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi-2019.11.28.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi-2019.11.28.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi/cacert.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/certifi/core.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +31,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="current-control" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601892822226</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="making plots">
+      <created>1601998219741</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1601998219741</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,14 +300,15 @@
     <MESSAGE value="data has been updated" />
     <MESSAGE value="some minor, trying to install matplotlib" />
     <MESSAGE value="new data" />
-    <option name="LAST_COMMIT_MESSAGE" value="new data" />
+    <MESSAGE value="making plots" />
+    <option name="LAST_COMMIT_MESSAGE" value="making plots" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="85" key="CommitChangelistDialog2" timestamp="1601893091541">
+    <state x="476" y="85" key="CommitChangelistDialog2" timestamp="1601998219473">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817339918" />
-    <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601893091541" />
+    <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601998219473" />
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog" timestamp="1600416700796">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -320,65 +317,54 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="507" y="223" key="FileChooserDialogImpl/0.23.1440.877@0.23.1440.877" timestamp="1596645231581" />
-    <state width="1419" height="227" key="GridCell.Tab.0.bottom" timestamp="1601998113727">
+    <state width="1419" height="226" key="GridCell.Tab.0.bottom" timestamp="1602001951795">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="183" key="GridCell.Tab.0.bottom/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255651" />
-    <state width="1419" height="227" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601998113727" />
-    <state width="1419" height="227" key="GridCell.Tab.0.center" timestamp="1601998113727">
+    <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602001951795" />
+    <state width="1419" height="226" key="GridCell.Tab.0.center" timestamp="1602001951794">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="183" key="GridCell.Tab.0.center/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255650" />
-    <state width="1419" height="227" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601998113727" />
-    <state width="1419" height="227" key="GridCell.Tab.0.left" timestamp="1601998113726">
+    <state width="1419" height="226" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602001951794" />
+    <state width="1419" height="226" key="GridCell.Tab.0.left" timestamp="1602001951794">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="183" key="GridCell.Tab.0.left/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255649" />
-    <state width="1419" height="227" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601998113726" />
-    <state width="1419" height="227" key="GridCell.Tab.0.right" timestamp="1601998113727">
+    <state width="1419" height="226" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602001951794" />
+    <state width="1419" height="226" key="GridCell.Tab.0.right" timestamp="1602001951795">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="183" key="GridCell.Tab.0.right/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255651" />
-    <state width="1419" height="227" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601998113727" />
-    <state width="1419" height="227" key="GridCell.Tab.1.bottom" timestamp="1601998114679">
+    <state width="1419" height="226" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602001951795" />
+    <state width="1419" height="227" key="GridCell.Tab.1.bottom" timestamp="1602001577840">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="227" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601998114679" />
-    <state width="1419" height="227" key="GridCell.Tab.1.center" timestamp="1601998114678">
+    <state width="1419" height="227" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602001577840" />
+    <state width="1419" height="227" key="GridCell.Tab.1.center" timestamp="1602001577839">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="227" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1601998114678" />
-    <state width="1419" height="227" key="GridCell.Tab.1.left" timestamp="1601998114678">
+    <state width="1419" height="227" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1602001577839" />
+    <state width="1419" height="227" key="GridCell.Tab.1.left" timestamp="1602001577839">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="227" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1601998114678" />
-    <state width="1419" height="227" key="GridCell.Tab.1.right" timestamp="1601998114679">
+    <state width="1419" height="227" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1602001577839" />
+    <state width="1419" height="227" key="GridCell.Tab.1.right" timestamp="1602001577840">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="227" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1601998114679" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1601892825675">
+    <state width="1419" height="227" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1602001577840" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1601998224006">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817405078" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601892825675" />
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600416276310">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601998224006" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602001441408">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1600416276310" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1602001441408" />
     <state x="394" y="260" key="git4idea.merge.GitPullDialog" timestamp="1600416288525">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="394" y="260" key="git4idea.merge.GitPullDialog/0.23.1440.877@0.23.1440.877" timestamp="1600416288525" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>209</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

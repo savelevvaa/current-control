@@ -214,13 +214,13 @@ def main():
             for i in list:
                 increase.append(i.split()[0])
                 dates.append(i.split()[3])
-            # plt.bar(dates, increase)
-            # plt.title('Simple bar chart')
-            # plt.grid(True)
+            plt.bar(dates, increase)
+            plt.title('Simple bar chart')
+            plt.grid(True)
 
-            cr = plt.contour(dates, increase)
-            plt.colorbar(cr)
-            plt.title('Simple contour plot')
+            # cr = plt.contour(dates, increase)
+            # plt.colorbar(cr)
+            # plt.title('Simple contour plot')
 
             plt.show()
 
