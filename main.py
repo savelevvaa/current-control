@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup as Bs
 import smtplib
 import time
 from datetime import datetime
-#import matplotlib as mlp
+import matplotlib.pyplot as plt
+import numpy as np
 
 # класс с методами по проверке текущей ситуации
 class Currency:
@@ -203,6 +204,29 @@ def main():
             # завершение
             print("bye bye\n")
             break
+        elif choice == 6:
+            fig = plt.figure()
+            # графики
+            list = situation.get_fileData()
+            list.pop(0)
+            increase = []
+            dates = []
+            for i in list:
+                increase.append(i.split()[0])
+                dates.append(i.split()[3])
+            # plt.bar(dates, increase)
+            # plt.title('Simple bar chart')
+            # plt.grid(True)
+
+            cr = plt.contour(dates, increase)
+            plt.colorbar(cr)
+            plt.title('Simple contour plot')
+
+            plt.show()
+
+
+
+
         else:
             print("choise right menu option...\n")
 
