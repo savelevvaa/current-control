@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979a63e4-c7f0-4059-8b12-2e83149fa73e" name="Default Changelist" comment="libs and test file">
+    <list default="true" id="979a63e4-c7f0-4059-8b12-2e83149fa73e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +23,12 @@
   <component name="ProjectId" id="1ZwLCkaSgMDnx8eXa1APZMg1I6U" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.main">
@@ -43,6 +44,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -64,6 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -80,6 +83,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -90,6 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585745083115</updated>
+      <workItem from="1608815201781" duration="328000" />
     </task>
     <task id="LOCAL-00001" summary="full upload, first pushing">
       <created>1585745264027</created>
@@ -287,24 +292,32 @@
       <option name="project" value="LOCAL" />
       <updated>1603221628172</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="data update (still works)">
+      <created>1607232386682</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607232386682</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Some cosmetic changes;&#10;Explanatory string in .txt;" />
     <MESSAGE value="..." />
     <MESSAGE value="still trying to  to implement a formal output of all data on the screen..." />
     <MESSAGE value="some cosmetic, outprint changes" />
@@ -329,47 +342,39 @@
     <MESSAGE value="libs and test file" />
     <MESSAGE value="gitignore and new data" />
     <MESSAGE value="m" />
-    <option name="LAST_COMMIT_MESSAGE" value="m" />
+    <MESSAGE value="data update (still works)" />
+    <option name="LAST_COMMIT_MESSAGE" value="data update (still works)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="85" key="CommitChangelistDialog2" timestamp="1603221648498">
+    <state x="476" y="85" key="CommitChangelistDialog2" timestamp="1607232386467">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877/-241.-1057.1920.1057@0.23.1440.877" timestamp="1603221648498" />
-    <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817339918" />
-    <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1602009761834" />
+    <state x="476" y="85" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1607232386467" />
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog" timestamp="1600416700796">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1600416700796" />
-    <state x="507" y="223" key="FileChooserDialogImpl" timestamp="1596645231581">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="507" y="223" key="FileChooserDialogImpl/0.23.1440.877@0.23.1440.877" timestamp="1596645231581" />
-    <state width="1419" height="227" key="GridCell.Tab.0.bottom" timestamp="1603221658180">
+    <state width="1419" height="280" key="GridCell.Tab.0.bottom" timestamp="1607232414204">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="227" key="GridCell.Tab.0.bottom/0.23.1440.877/-241.-1057.1920.1057@0.23.1440.877" timestamp="1603221658180" />
-    <state width="1419" height="183" key="GridCell.Tab.0.bottom/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255651" />
-    <state width="1419" height="227" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602009796609" />
-    <state width="1419" height="227" key="GridCell.Tab.0.center" timestamp="1603221658180">
+    <state width="1419" height="280" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607232414204" />
+    <state width="1419" height="280" key="GridCell.Tab.0.center" timestamp="1607232414203">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="227" key="GridCell.Tab.0.center/0.23.1440.877/-241.-1057.1920.1057@0.23.1440.877" timestamp="1603221658180" />
-    <state width="1419" height="183" key="GridCell.Tab.0.center/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255650" />
-    <state width="1419" height="227" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602009796608" />
-    <state width="1419" height="227" key="GridCell.Tab.0.left" timestamp="1603221658179">
+    <state width="1419" height="280" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607232414203" />
+    <state width="1419" height="280" key="GridCell.Tab.0.left" timestamp="1607232414203">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="227" key="GridCell.Tab.0.left/0.23.1440.877/-241.-1057.1920.1057@0.23.1440.877" timestamp="1603221658179" />
-    <state width="1419" height="183" key="GridCell.Tab.0.left/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255649" />
-    <state width="1419" height="227" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602009796608" />
-    <state width="1419" height="227" key="GridCell.Tab.0.right" timestamp="1603221658180">
+    <state width="1419" height="280" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607232414203" />
+    <state width="1419" height="280" key="GridCell.Tab.0.right" timestamp="1607232414203">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="227" key="GridCell.Tab.0.right/0.23.1440.877/-241.-1057.1920.1057@0.23.1440.877" timestamp="1603221658180" />
-    <state width="1419" height="183" key="GridCell.Tab.0.right/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817255651" />
-    <state width="1419" height="227" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602009796608" />
+    <state width="1419" height="280" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607232414203" />
     <state width="1419" height="227" key="GridCell.Tab.1.bottom" timestamp="1603221658181">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -390,12 +395,11 @@
     </state>
     <state width="1419" height="227" key="GridCell.Tab.1.right/0.23.1440.877/-241.-1057.1920.1057@0.23.1440.877" timestamp="1603221658181" />
     <state width="1419" height="227" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1602009796610" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603221596892">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607232396022">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-241.-1057.1920.1057@0.23.1440.877" timestamp="1603221596892" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-273.-1057.1920.1057@0.23.1440.877" timestamp="1594817405078" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1602009771339" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607232396022" />
     <state x="622" y="223" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602009675675">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -408,5 +412,8 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="394" y="260" key="git4idea.merge.GitPullDialog/0.23.1440.877@0.23.1440.877" timestamp="1600416288525" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/current_control$main.coverage" NAME="main Coverage Results" MODIFIED="1608815389151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
