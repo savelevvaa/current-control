@@ -49,7 +49,8 @@ class Currency:
     # метод, предназначенный для парсинга веб-страницы, для получения определенных данных
     def get_currency(self):
         # ссылка на сайт
-        currency_url = '''https://www.стопкоронавирус.рф'''
+        # currency_url = '''https://стопкоронавирус.рф'''
+        currency_url = '''https://стопкоронавирус.рф/information/'''
 
         # user-agent для совершения запроса как пользователь, а не как бот (для обхода капч (предназначенно самой
         # библеотекой requests))
@@ -65,7 +66,8 @@ class Currency:
 
         # производим поиск, выцеживаем интересующие нас данные (актуально только для текущего сайта, и на момент
         # разработки и на ближайшее время)
-        currentData = soup.find_all('div', {'class': 'cv-countdown__item-value'}, 'span')
+        # currentData = soup.find_all('div', {'class': 'cv-countdown__item-value'}, 'span')
+        currentData = soup.find_all('cv-stats-virus__item-additional-number') 
 
         # возвращаем текущие данные
         return currentData
